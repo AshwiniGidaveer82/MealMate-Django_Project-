@@ -93,6 +93,7 @@ mealmate/
 │── manage.py
 │── requirements.txt
 
+
 **API Endpoints (If Using Django REST Framework)**
 
 | Method  | Endpoint                    | Description               |
@@ -107,8 +108,11 @@ mealmate/
 **Razorpay Payment Integration**
 
 Sign up at Razorpay
+
 Get API keys from Razorpay Dashboard
+
 Add API keys to Django settings:
+
 
 RAZORPAY_KEY_ID = "your_key_id"
 RAZORPAY_KEY_SECRET = "your_key_secret"
