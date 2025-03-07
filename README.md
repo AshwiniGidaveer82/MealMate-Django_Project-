@@ -87,14 +87,14 @@ mealmate/
 
 **API Endpoints (If Using Django REST Framework)**
 
-| Method  | Endpoint                        | Description               |
-|---------|---------------------------------|---------------------------|
-| GET     | /restaurants/                   | List all restaurants      |
-| POST    | /restaurants/add/               | Add a new restaurant      |
-| PUT     | /restaurants/update/<id>/       | Update restaurant details |
-| DELETE  | /restaurants/delete/<id>/       | Delete a restaurant       |
-| GET     | /menu/                          | Get menu items            |
-| POST    | /order/                         | Place an order            |
+| Method  | Endpoint                    | Description               |
+|---------|-----------------------------|---------------------------|
+| GET     | restaurants                 | List all restaurants      |
+| POST    | restaurants/add             | Add a new restaurant      |
+| PUT     | restaurants/update/<id>     | Update restaurant details |
+| DELETE  | restaurants/delete/<id>     | Delete a restaurant       |
+| GET     | menu                        | Get menu items            |
+| POST    | order                       | Place an order            |
 
 **Razorpay Payment Integration**
 
