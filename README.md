@@ -6,18 +6,23 @@ Mealmate is a Django-based web application that allows users to register as rest
 --------------
 **Authentication**
 User registration and login (for both restaurant owners and customers)
+
 Secure authentication using Django's built-in authentication system
 
 **Restaurant Management**
 -------------------------
 Add new restaurants
+
 Edit and update restaurant details
+
 Delete restaurants
 
 **Menu & Orders**
 ------------------
 Customers can browse menus
+
 Add items to the cart
+
 Place orders
 
 **Payment Integration**
@@ -29,11 +34,13 @@ Razorpay integrated for secure online payments
 1. Clone the Repository
 
 git clone https://github.com/your-username/mealmate.git
+
 cd mealmate
 
 **2. Set Up a Virtual Environment**
 
 python3 -m venv venv
+
 source venv/bin/activate  # For Mac/Linux
 
 **3. Install Dependencies**
@@ -51,6 +58,7 @@ python manage.py createsuperuser
 **7. Run the Development Server**
 
 python manage.py runserver
+
 Now, open your browser and go to http://127.0.0.1:8000/
 
 **Directory Structure**
